@@ -47,7 +47,10 @@ Download and extract the project files from the Github [repository](https://gith
 
 ### Scratch
 
-littleBits recently released an extension for the Scratch for Arduino environment which makes it very simple to connect the littleBits Arduino to Scratch.  
+littleBits recently released an extension for the [Scratch for Arduino](http://s4a.cat/) (S4A) environment which makes it very simple to connect the littleBits Arduino to Scratch. 
+
+
+More information can be found [here](http://littlebits.cc/education-scratch-extensions) 
 
 
 - [Download](https://github.com/littlebits/lbScratch/blob/master/Scratch-14/binaries/LB_S4A.dmg.zip) and install the littleBits Arduino version of S4A. Intstall the custom firmware onto your littleBits Arduino module by following the instructions [here](http://GettingStartedwithlittleBitsScratch1.4.pdf)
