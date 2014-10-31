@@ -9,7 +9,7 @@
 
 flappyBit is a simple Flappy Birds game controlled with littleBits using an input trigger and the arduino module.
 
-A Scratch sketch connects the inputs from the littleBits with a node.js application that converts the triggers recevied from the Arduino into events that the game running in the browser
+A [Scratch](http://www.scratch.edu) sketch connects the inputs from the littleBits with a node.js application that converts the triggers recevied from the Arduino into events that the game running in the browser
 
 It was put together for  talks and demos of littleBits that i've been doing - but it may be useful for others who are wanting to connect up their littleBits collection to other things. 
 
