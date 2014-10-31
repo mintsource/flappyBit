@@ -1,19 +1,19 @@
 
 
-![image](support/images/flappyBit-logo.png)
+![image](https://raw.githubusercontent.com/mintsource/flappyBit/master/support/images/flappyBit-logo.png)
 
-![image](support/images/flappyBit-tagline.png)
+![image](https://raw.githubusercontent.com/mintsource/flappyBit/master/support/images/flappyBit-tagline.png)
 
 ## Overview
 
 
 flappyBit is a simple Flappy Birds game controlled with littleBits using an input trigger and the arduino module.
 
-A [Scratch](http://www.scratch.edu) sketch connects the inputs from the littleBits with a node.js application that converts the triggers recevied from the Arduino into events that the game running in the browser
+A [Scratch](http://www.scratch.mit.edu) sketch connects the inputs from the littleBits with a node.js application that converts the triggers recevied from the Arduino into events that the game running in the browser
 
 It was put together for  talks and demos of littleBits that i've been doing - but it may be useful for others who are wanting to connect up their littleBits collection to other things. 
 
-![image](support/images/flappyBit-screenshot.png)
+![image](https://raw.githubusercontent.com/mintsource/flappyBit/master/support/images/flappyBit-screenshot.png)
 
 
 ## Technical Overview
@@ -29,8 +29,8 @@ The basic flow is:
 It is comprised of the following:
 
 - [littleBits Arduino module](http://littlebits.cc/kits/arduino-coding-kit). In this setup the [wireless transceiver/receiver](http://littlebits.cc/boost-its/wireless) will be used to seperate the controller from the Arduino but basically it needs to have a trigger from an input bit connected to the Arduino.
-- [Scratch](http://www.scratch.edu) communicating with the littleBits Arduino module. 
-- A Flappy Birds clone built using [Phaser](http://www.phaserjs.com) and based on LessMilk's [excellent tutorial](http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/) running in the browser that received input from the littleBits to make. It is packaged as a Node.js application in order to communicate to Scratch over a regular socket connection and the browser with websockets.
+- [Scratch](http://www.scratch.mit.edu) communicating with the littleBits Arduino module. 
+- A Flappy Birds clone built using [Phaser](http://www.phaser.io) and based on LessMilk's [excellent tutorial](http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/) running in the browser that received input from the littleBits to make. It is packaged as a Node.js application in order to communicate to Scratch over a regular socket connection and the browser with websockets.
 
 
 ##Setup
@@ -42,7 +42,7 @@ Download and extract the project files from the Github [repository](https://gith
 - Attach an input bit such as a button or a roller to you the Arduino's d0 connector. This could simply be connected directly or a more elaborate setup - providing a wireless controller on a mounting board as shown below.
 - Connect up the Arduino to a USB port and power on your computer. 
 
-![image](support/images/flappyBit-wireless-controller.png) ![image](support/images/flappyBit-arduino.png)
+![image](https://raw.githubusercontent.com/mintsource/flappyBit/master/support/images/flappyBit-wireless-controller.png) ![image](https://raw.githubusercontent.com/mintsource/flappyBit/master/support/images/flappyBit-arduino.png)
 
 
 ### Scratch
@@ -61,7 +61,7 @@ More information can be found [here](http://littlebits.cc/education-scratch-exte
 
 On the right you can see the image of the littleBits Arduino. If you board is connected 
 
-![image](support/images/flappyBit-scratch.png)
+![image](https://raw.githubusercontent.com/mintsource/flappyBit/master/support/images/flappyBit-scratch.png)
 
 
 - In the right hand preview window, the "Searching board..." message should disappear once it has successfully found the board.
