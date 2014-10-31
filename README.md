@@ -29,8 +29,8 @@ The basic flow is:
 It is comprised of the following:
 
 - [littleBits Arduino module](http://littlebits.cc/kits/arduino-coding-kit). In this setup the [wireless transceiver/receiver](http://littlebits.cc/boost-its/wireless) will be used to seperate the controller from the Arduino but basically it needs to have a trigger from an input bit connected to the Arduino.
-- [Scratch](http://) communicating with the littleBits Arduino module. 
-- A Flappy Birds clone built using [Phaser](http:) and based on LessMilk's [excellent tutorial](http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/) running in the browser that received input from the littleBits to make. It is packaged as a Node.js application in order to communicate to Scratch over a regular socket connection and the browser with websockets.
+- [Scratch](http://www.scratch.edu) communicating with the littleBits Arduino module. 
+- A Flappy Birds clone built using [Phaser](http://www.phaserjs.com) and based on LessMilk's [excellent tutorial](http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/) running in the browser that received input from the littleBits to make. It is packaged as a Node.js application in order to communicate to Scratch over a regular socket connection and the browser with websockets.
 
 
 ##Setup
@@ -50,7 +50,7 @@ Download and extract the project files from the Github [repository](https://gith
 littleBits recently released an extension for the Scratch for Arduino environment which makes it very simple to connect the littleBits Arduino to Scratch.  
 
 
-- [Download](https://github.com/littlebits/lbScratch/blob/master/Scratch-14/binaries/LB_S4A.dmg.zip) and install the littleBits Arduino version of S4A. Intstall the custom firmware onto your littleBits Arduino module by following the instructions [here](file:///Users/rabobank/Desktop/GettingStartedwithlittleBitsScratch1.4.pdf)
+- [Download](https://github.com/littlebits/lbScratch/blob/master/Scratch-14/binaries/LB_S4A.dmg.zip) and install the littleBits Arduino version of S4A. Intstall the custom firmware onto your littleBits Arduino module by following the instructions [here](http://GettingStartedwithlittleBitsScratch1.4.pdf)
 - Connect the littleBits Arduino module with a input, such as a button to the d0 connector as shown below.
 
 
